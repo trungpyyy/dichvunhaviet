@@ -4,29 +4,6 @@ function App() {
 
   return (
     <>
-      <header className="hero-bg text-white shadow-lg">
-        <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold">Dịch vụ Nhà Việt</h1>
-          <ul className="flex space-x-6 hidden md:flex">
-            <li><a href="#about" className="hover:text-yellow-300">Giới thiệu</a></li>
-            <li><a href="#services" className="hover:text-yellow-300">Dịch vụ</a></li>
-            <li><a href="#testimonials" className="hover:text-yellow-300">Phản hồi</a></li>
-            <li><a href="#contact" className="hover:text-yellow-300">Liên hệ</a></li>
-          </ul>
-          <button className="md:hidden focus:outline-none">
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-            </svg>
-          </button>
-        </nav>
-        <div id="mobile-menu" className="md:hidden bg-blue-700 p-4 space-y-2">
-          <a href="#about" className="block text-white hover:text-yellow-300">Giới thiệu</a>
-          <a href="#services" className="block text-white hover:text-yellow-300">Dịch vụ</a>
-          <a href="#testimonials" className="block text-white hover:text-yellow-300">Phản hồi</a>
-          <a href="#contact" className="block text-white hover:text-yellow-300">Liên hệ</a>
-        </div>
-      </header>
-
       <section className="relative py-20 px-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white">
         <div className="container mx-auto flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 fade-in">
